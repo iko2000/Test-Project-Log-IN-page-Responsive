@@ -1,0 +1,125 @@
+@font-face {
+    font-family: FiraGO;
+    src: url(../Fonts/FiraGO-Medium.ttf);
+}
+@font-face {
+    font-family: font-font;
+    src: url(../Fonts/Poppins-Light.ttf);
+}
+body {
+    background: linear-gradient(red, green, black);
+}
+header, nav {
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-size: 30px;
+    list-style: none;
+    margin-left: 40px;
+}
+section {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 30%;
+    height: 20rem;
+    border-bottom: 1px solid black;
+    background: linear-gradient(blue,red);
+}
+.feature {
+    width: 100%;
+    height: 35%;
+    display: grid;
+    align-items: center;
+    opacity: 4.0;
+}
+.feature h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: font-font;
+    visibility: visible;
+    opacity: 4.0;
+
+}
+.feature h4 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: FiraGO;
+
+}
+.name {
+    width: 100%;
+    height: 20%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: FiraGO;
+
+}
+input {
+    width: 100%;
+    height: 55%;
+    background: linear-gradient(black,blue);
+}
+.surname {
+    width: 100%;
+    height: 20%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: font-font;
+
+}
+.but {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.but h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: FiraGO;
+}
+button {
+    width: 30%;
+    height: 30%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: font-font;
+}
+
+button:hover {
+    scale: 1.2;
+    background: linear-gradient(black,green);
+}
+
+@media only screen and (max-width: 913px) {
+     .container{
+        height: 30rem;
+        width: 70%;
+     }
+     nav, header {
+        height: 7rem;
+     }
+     li {
+        margin-left: 2px;
+     }
+}
